@@ -6,11 +6,11 @@
 /*   By: smoreron <smoreron@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/01 17:29:19 by smoreron          #+#    #+#             */
-/*   Updated: 2025/02/01 17:30:30 by smoreron         ###   ########.fr       */
+/*   Updated: 2025/02/01 17:38:27 by smoreron         ###   ########.fr       */
 /*                                                                            */
 /******************************************************************************/
 
-#include "whatever.hpp"
+
 #include <iostream>
 
 int main( void ) {
