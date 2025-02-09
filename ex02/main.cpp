@@ -6,7 +6,7 @@
 /*   By: smoreron <smoreron@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/03 14:15:13 by smoreron          #+#    #+#             */
-/*   Updated: 2025/02/03 19:12:57 by smoreron         ###   ########.fr       */
+/*   Updated: 2025/02/09 11:05:09 by smoreron         ###   ########.fr       */
 /*                                                                            */
 /******************************************************************************/
 
@@ -23,8 +23,10 @@ int main() {
 		Array<int> arr2(5);
 		std::cout << "arr2 size: " << arr2.size() << std::endl;
 		for (unsigned int i = 0; i < arr2.size(); ++i) {
-			arr2[i] = i * 10;
+			arr2[i] = i + 10;
 		}
+		arr2.annonce();
+		
 
 		
 		Array<int> arr3 = arr2;
@@ -38,7 +40,7 @@ int main() {
 		
 		Array<double> arr4(3);
 		arr4[0] = 1.1; arr4[1] = 2.2; arr4[2] = 3.3;
-		std::cout << "arr4[1]: " << arr4[1] << std::endl;
+		arr4.annonce();
 
 		
 		std::cout << "attempt  access to arr2[10]:" << std::endl;
@@ -46,6 +48,8 @@ int main() {
 	} catch (const std::exception& e) {
 		std::cerr << "Exception: " << e.what() << std::endl;
 	}
+	
+	
 
 	return 0;
 }
