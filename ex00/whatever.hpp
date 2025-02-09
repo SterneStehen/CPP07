@@ -6,15 +6,14 @@
 /*   By: smoreron <smoreron@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/29 14:38:57 by smoreron          #+#    #+#             */
-/*   Updated: 2025/02/01 17:06:29 by smoreron         ###   ########.fr       */
+/*   Updated: 2025/02/09 10:01:29 by smoreron         ###   ########.fr       */
 /*                                                                            */
 /******************************************************************************/
 
 #ifndef WHATEVER_HPP
 #define WHATEVER_HPP
 
-
-#include "whatever.hpp"
+#include <iostream>
 #include <string>
 
 template <typename T>
